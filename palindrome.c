@@ -8,10 +8,10 @@ int reverseNum(int N) {
     int rev = 0;
     while (N > 0) {
 
-        // Extract the last digit
+       
         int dig = N % 10;
 
-        // Append the digit to the reversed number
+    
         rev = rev * 10 + dig;
 
         
@@ -29,7 +29,7 @@ int isPalindrome(int N) {
 }
 
 int main() {
-    int N = 121;
+    int N = 122;
     if (isPalindrome(N)) {
         printf("Yes\n");
     }
